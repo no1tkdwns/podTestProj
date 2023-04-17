@@ -1,0 +1,10 @@
+* Pangle 연동 시, 아래 가이드 참고 부탁 드리며, framework 추가 시, pod를 통한 연동을 권장해 드립니다.
+
+- SDK 연동 가이드
+https://www.pangleglobal.com/union/media/union/download/detail?id=23&osType=ios&platform=ios
+
+- 초기화
+SDK 연동 시, 초기화 관련 작업은 아래의 내용 확인 후, 앱에 직접 설정해 주시기를 권장합니다.
+https://www.pangleglobal.com/union/media/union/download/detail?id=23&docId=60137a2b511c57004360fabf&osType=ios
+
+ 

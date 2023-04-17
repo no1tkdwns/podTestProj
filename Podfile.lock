@@ -1,0 +1,124 @@
+PODS:
+  - AdPopcornSSP (2.4.3)
+  - Ads-Global (5.0.0.7):
+    - Ads-Global/BUAdSDK (= 5.0.0.7)
+  - Ads-Global/APM (5.0.0.7):
+    - RangersAPM-Pangle/Crash (= 3.0.2)
+    - RangersAPM-Pangle/Global (= 3.0.2)
+    - RangersAPM-Pangle/SessionTracker (= 3.0.2)
+  - Ads-Global/BUAdSDK (5.0.0.7):
+    - Ads-Global/APM
+    - Ads-Global/BURelyAdSDK
+    - Ads-Global/Dep_Accurate
+  - Ads-Global/BURelyAdSDK (5.0.0.7)
+  - Ads-Global/Dep_Accurate (5.0.0.7):
+    - BUAdSDK (= 0.1.1.3)
+    - BURelyFoundation_Global/Pangle (= 0.0.4.1)
+  - Alamofire (5.6.4)
+  - AppLovinSDK (11.7.1)
+  - BUAdSDK (0.1.1.3):
+    - BUAdSDK/BUAdSDK (= 0.1.1.3)
+  - BUAdSDK/BUAdSDK (0.1.1.3)
+  - BURelyFoundation_Global/AFNetworking (0.0.4.1)
+  - BURelyFoundation_Global/Foundation (0.0.4.1):
+    - BURelyFoundation_Global/NETWork
+  - BURelyFoundation_Global/Gecko (0.0.4.1):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/Header (0.0.4.1)
+  - BURelyFoundation_Global/NETWork (0.0.4.1):
+    - BURelyFoundation_Global/AFNetworking
+  - BURelyFoundation_Global/Pangle (0.0.4.1):
+    - BURelyFoundation_Global/AFNetworking
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Gecko
+    - BURelyFoundation_Global/Header
+    - BURelyFoundation_Global/NETWork
+    - BURelyFoundation_Global/SDWebImage
+    - BURelyFoundation_Global/YYModel
+    - BURelyFoundation_Global/ZFPlayer
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/SDWebImage (0.0.4.1):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/YYModel (0.0.4.1)
+  - BURelyFoundation_Global/ZFPlayer (0.0.4.1):
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/Zip (0.0.4.1):
+    - BURelyFoundation_Global/Foundation
+  - DatadogSDK (1.17.0)
+  - OneKit-Pangle/BaseKit (1.3.11)
+  - OneKit-Pangle/Database (1.3.11):
+    - OneKit-Pangle/Service
+  - OneKit-Pangle/Reachability (1.3.11):
+    - OneKit-Pangle/Service
+  - OneKit-Pangle/Service (1.3.11)
+  - RangersAPM-Pangle/Above (3.0.2)
+  - RangersAPM-Pangle/Core (3.0.2):
+    - OneKit-Pangle/BaseKit (= 1.3.11)
+  - RangersAPM-Pangle/Crash (3.0.2):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/HMD
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/Global (3.0.2):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/HMD (3.0.2):
+    - OneKit-Pangle/Database (= 1.3.11)
+    - RangersAPM-Pangle/Core
+  - RangersAPM-Pangle/Public (3.0.2):
+    - RangersAPM-Pangle/Above
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/Zyone
+    - RARegisterKit-Pangle/Core (= 0.0.7)
+  - RangersAPM-Pangle/SessionTracker (3.0.2):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/HMD
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/Zyone (3.0.2)
+  - RARegisterKit-Pangle/Core (0.0.7):
+    - OneKit-Pangle/BaseKit (= 1.3.11)
+    - OneKit-Pangle/Reachability (= 1.3.11)
+  - UnityAds (4.5.0)
+  - VungleSDK-iOS (6.12.2)
+
+DEPENDENCIES:
+  - AdPopcornSSP
+  - Ads-Global (= 5.0.0.7)
+  - Alamofire
+  - AppLovinSDK (= 11.7.1)
+  - DatadogSDK
+  - UnityAds (= 4.5.0)
+  - VungleSDK-iOS (= 6.12.2)
+
+SPEC REPOS:
+  trunk:
+    - AdPopcornSSP
+    - Ads-Global
+    - Alamofire
+    - AppLovinSDK
+    - BUAdSDK
+    - BURelyFoundation_Global
+    - DatadogSDK
+    - OneKit-Pangle
+    - RangersAPM-Pangle
+    - RARegisterKit-Pangle
+    - UnityAds
+    - VungleSDK-iOS
+
+SPEC CHECKSUMS:
+  AdPopcornSSP: 5b4fee257a776a0dc82e9da02345ca46a408af66
+  Ads-Global: b1998b8df5662f16cf7e2640f5c1dac5678e495a
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AppLovinSDK: 8b2496b62b942d409da6241f967ac837415d05ad
+  BUAdSDK: 3cdff380925dd70bb18cc56fe91a0abc5229dcc9
+  BURelyFoundation_Global: de7c54989c31edd140d5a931a2124430376d01e9
+  DatadogSDK: b1d2f64053b4e79fcb52859070f868d6696c4e31
+  OneKit-Pangle: 19fc175cb04d0830594808f470751d3d2ab14318
+  RangersAPM-Pangle: d2cc7e3887f0febfd82a1c91de96ec831fb584d1
+  RARegisterKit-Pangle: b840cfa2b841389f88959504aaf62ce2730a18d1
+  UnityAds: fab621d1066e414af9ce884f1252cdd53894263e
+  VungleSDK-iOS: 14d5a7fbfa63093b5a2bffe7bb5b0e7ee65b169d
+
+PODFILE CHECKSUM: 41d4a02457cefa6d900fa8ef54b21681b0ed18dd
+
+COCOAPODS: 1.12.0

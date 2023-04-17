@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podTest"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of podTest."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
   #                  DESC
 
-  # spec.homepage     = "http://EXAMPLE/podTest"
+  spec.homepage     = "https://github.com/no1tkdwns/podTestProj"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -90,8 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "podTestProject/**/*.{swift,h}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -133,5 +133,11 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "Alamofire"
+  spec.dependency "AdPopcornSSP"
+  spec.dependency "Ads-Global", "5.0.0.7"
+  spec.dependency "AppLovinSDK", "11.7.1"
+  spec.dependency "VungleSDK-iOS", "6.12.2"
+  spec.dependency "UnityAds", "4.5.0"
 
 end

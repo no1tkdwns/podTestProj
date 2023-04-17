@@ -11,6 +11,38 @@
 		BF1C3A1529E955A3008A1998 /* podTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C3A0A29E955A3008A1998 /* podTestProject.framework */; };
 		BF1C3A1A29E955A3008A1998 /* podTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A1929E955A3008A1998 /* podTestProjectTests.swift */; };
 		BF1C3A1B29E955A3008A1998 /* podTestProject.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A0D29E955A3008A1998 /* podTestProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1C3AA129E98CD4008A1998 /* UnityAdsAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A8029E98CD3008A1998 /* UnityAdsAdapter.h */; };
+		BF1C3AA229E98CD4008A1998 /* UnityAdsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A8129E98CD3008A1998 /* UnityAdsAdapter.m */; };
+		BF1C3AA329E98CD4008A1998 /* VungleAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A8329E98CD3008A1998 /* VungleAdapter.h */; };
+		BF1C3AA429E98CD4008A1998 /* VungleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A8429E98CD3008A1998 /* VungleAdapter.m */; };
+		BF1C3AA529E98CD4008A1998 /* AppLovinAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A8629E98CD3008A1998 /* AppLovinAdapter.h */; };
+		BF1C3AA629E98CD4008A1998 /* AppLovinAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A8729E98CD3008A1998 /* AppLovinAdapter.m */; };
+		BF1C3AA729E98CD4008A1998 /* PangleAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A8929E98CD3008A1998 /* PangleAdapter.m */; };
+		BF1C3AA829E98CD4008A1998 /* README in Resources */ = {isa = PBXBuildFile; fileRef = BF1C3A8A29E98CD3008A1998 /* README */; };
+		BF1C3AA929E98CD4008A1998 /* PangleAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A8B29E98CD3008A1998 /* PangleAdapter.h */; };
+		BF1C3AAA29E98CD4008A1998 /* CaulyAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A8D29E98CD3008A1998 /* CaulyAdapter.h */; };
+		BF1C3AAC29E98CD4008A1998 /* libCauly-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C3A9029E98CD3008A1998 /* libCauly-universal.a */; };
+		BF1C3AAD29E98CD4008A1998 /* CaulyInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A9229E98CD3008A1998 /* CaulyInterstitialAd.h */; };
+		BF1C3AAE29E98CD4008A1998 /* Cauly.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A9329E98CD3008A1998 /* Cauly.h */; };
+		BF1C3AAF29E98CD4008A1998 /* CaulyNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A9429E98CD3008A1998 /* CaulyNativeAd.h */; };
+		BF1C3AB029E98CD4008A1998 /* CaulyNativeAdItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A9529E98CD3008A1998 /* CaulyNativeAdItem.h */; };
+		BF1C3AB129E98CD4008A1998 /* CaulyAdSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A9629E98CD3008A1998 /* CaulyAdSetting.h */; };
+		BF1C3AB229E98CD4008A1998 /* CaulyAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3A9729E98CD3008A1998 /* CaulyAdView.h */; };
+		BF1C3AB329E98CD4008A1998 /* CaulyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9829E98CD3008A1998 /* CaulyAdapter.m */; };
+		BF1C3AB429E98CD4008A1998 /* APBStriptBannerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9A29E98CD3008A1998 /* APBStriptBannerModule.swift */; };
+		BF1C3AB529E98CD4008A1998 /* APModalBannerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9B29E98CD3008A1998 /* APModalBannerModule.swift */; };
+		BF1C3AB629E98CD4008A1998 /* APInterVideoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9C29E98CD3008A1998 /* APInterVideoModule.swift */; };
+		BF1C3AB729E98CD4008A1998 /* APSStriptBannerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9D29E98CD3008A1998 /* APSStriptBannerModule.swift */; };
+		BF1C3AB829E98CD4008A1998 /* APInterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9E29E98CD3008A1998 /* APInterModule.swift */; };
+		BF1C3AB929E98CD4008A1998 /* APRewardVideoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3A9F29E98CD3008A1998 /* APRewardVideoModule.swift */; };
+		BF1C3ABA29E98CD4008A1998 /* APSSPInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3AA029E98CD4008A1998 /* APSSPInit.swift */; };
+		BF1C3ABC29E98D95008A1998 /* AdPopcornBirdge.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1C3ABB29E98D95008A1998 /* AdPopcornBirdge.h */; };
+		BF1C3AC329E9932B008A1998 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3AC029E9932B008A1998 /* APIConstants.swift */; };
+		BF1C3AC429E9932B008A1998 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3AC129E9932B008A1998 /* Reachability.swift */; };
+		BF1C3AC529E9932B008A1998 /* AppSettingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3AC229E9932B008A1998 /* AppSettingDataManager.swift */; };
+		BF1C3AC929E99330008A1998 /* AppSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3AC729E99330008A1998 /* AppSettingModel.swift */; };
+		BF1C3ACA29E99330008A1998 /* AppSettingInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C3AC829E99330008A1998 /* AppSettingInput.swift */; };
+		CC201CF27382ABA8E5518EBB /* Pods_podTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46231995975E501C51C0B807 /* Pods_podTestProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +56,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46231995975E501C51C0B807 /* Pods_podTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EB92B6A263AD71845385C6 /* Pods-podTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestProject.debug.xcconfig"; path = "Target Support Files/Pods-podTestProject/Pods-podTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5CC41EEF18B9C7372A451EBC /* Pods-podTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestProject.release.xcconfig"; path = "Target Support Files/Pods-podTestProject/Pods-podTestProject.release.xcconfig"; sourceTree = "<group>"; };
 		BF1C3A0A29E955A3008A1998 /* podTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = podTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1C3A0D29E955A3008A1998 /* podTestProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podTestProject.h; sourceTree = "<group>"; };
 		BF1C3A0E29E955A3008A1998 /* podTestProject.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = podTestProject.docc; sourceTree = "<group>"; };
 		BF1C3A1429E955A3008A1998 /* podTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1C3A1929E955A3008A1998 /* podTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podTestProjectTests.swift; sourceTree = "<group>"; };
+		BF1C3A8029E98CD3008A1998 /* UnityAdsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityAdsAdapter.h; sourceTree = "<group>"; };
+		BF1C3A8129E98CD3008A1998 /* UnityAdsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityAdsAdapter.m; sourceTree = "<group>"; };
+		BF1C3A8329E98CD3008A1998 /* VungleAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VungleAdapter.h; sourceTree = "<group>"; };
+		BF1C3A8429E98CD3008A1998 /* VungleAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VungleAdapter.m; sourceTree = "<group>"; };
+		BF1C3A8629E98CD3008A1998 /* AppLovinAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinAdapter.h; sourceTree = "<group>"; };
+		BF1C3A8729E98CD3008A1998 /* AppLovinAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinAdapter.m; sourceTree = "<group>"; };
+		BF1C3A8929E98CD3008A1998 /* PangleAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PangleAdapter.m; sourceTree = "<group>"; };
+		BF1C3A8A29E98CD3008A1998 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		BF1C3A8B29E98CD3008A1998 /* PangleAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PangleAdapter.h; sourceTree = "<group>"; };
+		BF1C3A8D29E98CD3008A1998 /* CaulyAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyAdapter.h; sourceTree = "<group>"; };
+		BF1C3A9029E98CD3008A1998 /* libCauly-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCauly-universal.a"; sourceTree = "<group>"; };
+		BF1C3A9229E98CD3008A1998 /* CaulyInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyInterstitialAd.h; sourceTree = "<group>"; };
+		BF1C3A9329E98CD3008A1998 /* Cauly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cauly.h; sourceTree = "<group>"; };
+		BF1C3A9429E98CD3008A1998 /* CaulyNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyNativeAd.h; sourceTree = "<group>"; };
+		BF1C3A9529E98CD3008A1998 /* CaulyNativeAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyNativeAdItem.h; sourceTree = "<group>"; };
+		BF1C3A9629E98CD3008A1998 /* CaulyAdSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyAdSetting.h; sourceTree = "<group>"; };
+		BF1C3A9729E98CD3008A1998 /* CaulyAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyAdView.h; sourceTree = "<group>"; };
+		BF1C3A9829E98CD3008A1998 /* CaulyAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaulyAdapter.m; sourceTree = "<group>"; };
+		BF1C3A9A29E98CD3008A1998 /* APBStriptBannerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APBStriptBannerModule.swift; sourceTree = "<group>"; };
+		BF1C3A9B29E98CD3008A1998 /* APModalBannerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APModalBannerModule.swift; sourceTree = "<group>"; };
+		BF1C3A9C29E98CD3008A1998 /* APInterVideoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APInterVideoModule.swift; sourceTree = "<group>"; };
+		BF1C3A9D29E98CD3008A1998 /* APSStriptBannerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APSStriptBannerModule.swift; sourceTree = "<group>"; };
+		BF1C3A9E29E98CD3008A1998 /* APInterModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APInterModule.swift; sourceTree = "<group>"; };
+		BF1C3A9F29E98CD3008A1998 /* APRewardVideoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRewardVideoModule.swift; sourceTree = "<group>"; };
+		BF1C3AA029E98CD4008A1998 /* APSSPInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APSSPInit.swift; sourceTree = "<group>"; };
+		BF1C3ABB29E98D95008A1998 /* AdPopcornBirdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdPopcornBirdge.h; sourceTree = "<group>"; };
+		BF1C3ABE29E992AC008A1998 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		BF1C3AC029E9932B008A1998 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		BF1C3AC129E9932B008A1998 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BF1C3AC229E9932B008A1998 /* AppSettingDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingDataManager.swift; sourceTree = "<group>"; };
+		BF1C3AC729E99330008A1998 /* AppSettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingModel.swift; sourceTree = "<group>"; };
+		BF1C3AC829E99330008A1998 /* AppSettingInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1C3AAC29E98CD4008A1998 /* libCauly-universal.a in Frameworks */,
+				CC201CF27382ABA8E5518EBB /* Pods_podTestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +119,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84A5D9071F4E574A7251A5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53EB92B6A263AD71845385C6 /* Pods-podTestProject.debug.xcconfig */,
+				5CC41EEF18B9C7372A451EBC /* Pods-podTestProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCA1BC0ED350EA553D88AAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46231995975E501C51C0B807 /* Pods_podTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF1C3A0029E955A3008A1998 = {
 			isa = PBXGroup;
 			children = (
 				BF1C3A0C29E955A3008A1998 /* podTestProject */,
 				BF1C3A1829E955A3008A1998 /* podTestProjectTests */,
 				BF1C3A0B29E955A3008A1998 /* Products */,
+				A84A5D9071F4E574A7251A5C /* Pods */,
+				BCA1BC0ED350EA553D88AAD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +159,15 @@
 		BF1C3A0C29E955A3008A1998 /* podTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				BF1C3AC629E99330008A1998 /* AppSetting */,
+				BF1C3ABF29E9932B008A1998 /* Network */,
+				BF1C3ABB29E98D95008A1998 /* AdPopcornBirdge.h */,
+				BF1C3A7E29E98CD3008A1998 /* Adapter */,
+				BF1C3A9929E98CD3008A1998 /* APModule */,
+				BF1C3AA029E98CD4008A1998 /* APSSPInit.swift */,
 				BF1C3A0D29E955A3008A1998 /* podTestProject.h */,
 				BF1C3A0E29E955A3008A1998 /* podTestProject.docc */,
+				BF1C3ABE29E992AC008A1998 /* module.modulemap */,
 			);
 			path = podTestProject;
 			sourceTree = "<group>";
@@ -85,6 +180,119 @@
 			path = podTestProjectTests;
 			sourceTree = "<group>";
 		};
+		BF1C3A7E29E98CD3008A1998 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A7F29E98CD3008A1998 /* unityads */,
+				BF1C3A8229E98CD3008A1998 /* vungle */,
+				BF1C3A8529E98CD3008A1998 /* applovin */,
+				BF1C3A8829E98CD3008A1998 /* pangle */,
+				BF1C3A8C29E98CD3008A1998 /* cauly */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		BF1C3A7F29E98CD3008A1998 /* unityads */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A8029E98CD3008A1998 /* UnityAdsAdapter.h */,
+				BF1C3A8129E98CD3008A1998 /* UnityAdsAdapter.m */,
+			);
+			path = unityads;
+			sourceTree = "<group>";
+		};
+		BF1C3A8229E98CD3008A1998 /* vungle */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A8329E98CD3008A1998 /* VungleAdapter.h */,
+				BF1C3A8429E98CD3008A1998 /* VungleAdapter.m */,
+			);
+			path = vungle;
+			sourceTree = "<group>";
+		};
+		BF1C3A8529E98CD3008A1998 /* applovin */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A8629E98CD3008A1998 /* AppLovinAdapter.h */,
+				BF1C3A8729E98CD3008A1998 /* AppLovinAdapter.m */,
+			);
+			path = applovin;
+			sourceTree = "<group>";
+		};
+		BF1C3A8829E98CD3008A1998 /* pangle */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A8929E98CD3008A1998 /* PangleAdapter.m */,
+				BF1C3A8A29E98CD3008A1998 /* README */,
+				BF1C3A8B29E98CD3008A1998 /* PangleAdapter.h */,
+			);
+			path = pangle;
+			sourceTree = "<group>";
+		};
+		BF1C3A8C29E98CD3008A1998 /* cauly */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A8D29E98CD3008A1998 /* CaulyAdapter.h */,
+				BF1C3A8E29E98CD3008A1998 /* CaulyLib */,
+				BF1C3A9829E98CD3008A1998 /* CaulyAdapter.m */,
+			);
+			path = cauly;
+			sourceTree = "<group>";
+		};
+		BF1C3A8E29E98CD3008A1998 /* CaulyLib */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A9029E98CD3008A1998 /* libCauly-universal.a */,
+				BF1C3A9129E98CD3008A1998 /* include */,
+			);
+			path = CaulyLib;
+			sourceTree = "<group>";
+		};
+		BF1C3A9129E98CD3008A1998 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A9229E98CD3008A1998 /* CaulyInterstitialAd.h */,
+				BF1C3A9329E98CD3008A1998 /* Cauly.h */,
+				BF1C3A9429E98CD3008A1998 /* CaulyNativeAd.h */,
+				BF1C3A9529E98CD3008A1998 /* CaulyNativeAdItem.h */,
+				BF1C3A9629E98CD3008A1998 /* CaulyAdSetting.h */,
+				BF1C3A9729E98CD3008A1998 /* CaulyAdView.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BF1C3A9929E98CD3008A1998 /* APModule */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3A9A29E98CD3008A1998 /* APBStriptBannerModule.swift */,
+				BF1C3A9B29E98CD3008A1998 /* APModalBannerModule.swift */,
+				BF1C3A9C29E98CD3008A1998 /* APInterVideoModule.swift */,
+				BF1C3A9D29E98CD3008A1998 /* APSStriptBannerModule.swift */,
+				BF1C3A9E29E98CD3008A1998 /* APInterModule.swift */,
+				BF1C3A9F29E98CD3008A1998 /* APRewardVideoModule.swift */,
+			);
+			path = APModule;
+			sourceTree = "<group>";
+		};
+		BF1C3ABF29E9932B008A1998 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3AC029E9932B008A1998 /* APIConstants.swift */,
+				BF1C3AC129E9932B008A1998 /* Reachability.swift */,
+				BF1C3AC229E9932B008A1998 /* AppSettingDataManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF1C3AC629E99330008A1998 /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C3AC729E99330008A1998 /* AppSettingModel.swift */,
+				BF1C3AC829E99330008A1998 /* AppSettingInput.swift */,
+			);
+			path = AppSetting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,7 +300,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1C3AAD29E98CD4008A1998 /* CaulyInterstitialAd.h in Headers */,
+				BF1C3ABC29E98D95008A1998 /* AdPopcornBirdge.h in Headers */,
+				BF1C3AA329E98CD4008A1998 /* VungleAdapter.h in Headers */,
+				BF1C3AB129E98CD4008A1998 /* CaulyAdSetting.h in Headers */,
+				BF1C3AAA29E98CD4008A1998 /* CaulyAdapter.h in Headers */,
+				BF1C3AAE29E98CD4008A1998 /* Cauly.h in Headers */,
+				BF1C3AA529E98CD4008A1998 /* AppLovinAdapter.h in Headers */,
+				BF1C3AAF29E98CD4008A1998 /* CaulyNativeAd.h in Headers */,
+				BF1C3AB029E98CD4008A1998 /* CaulyNativeAdItem.h in Headers */,
 				BF1C3A1B29E955A3008A1998 /* podTestProject.h in Headers */,
+				BF1C3AB229E98CD4008A1998 /* CaulyAdView.h in Headers */,
+				BF1C3AA129E98CD4008A1998 /* UnityAdsAdapter.h in Headers */,
+				BF1C3AA929E98CD4008A1998 /* PangleAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF1C3A1E29E955A3008A1998 /* Build configuration list for PBXNativeTarget "podTestProject" */;
 			buildPhases = (
+				4DB90954FF4D395CE57493EA /* [CP] Check Pods Manifest.lock */,
 				BF1C3A0529E955A3008A1998 /* Headers */,
 				BF1C3A0629E955A3008A1998 /* Sources */,
 				BF1C3A0729E955A3008A1998 /* Frameworks */,
 				BF1C3A0829E955A3008A1998 /* Resources */,
+				CCD5ADBC491E350AC92B62A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1C3AA829E98CD4008A1998 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +412,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DB90954FF4D395CE57493EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-podTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD5ADBC491E350AC92B62A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podTestProject/Pods-podTestProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podTestProject/Pods-podTestProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-podTestProject/Pods-podTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF1C3A0629E955A3008A1998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1C3AA429E98CD4008A1998 /* VungleAdapter.m in Sources */,
+				BF1C3ACA29E99330008A1998 /* AppSettingInput.swift in Sources */,
+				BF1C3AA229E98CD4008A1998 /* UnityAdsAdapter.m in Sources */,
+				BF1C3AB329E98CD4008A1998 /* CaulyAdapter.m in Sources */,
+				BF1C3AA629E98CD4008A1998 /* AppLovinAdapter.m in Sources */,
+				BF1C3AB729E98CD4008A1998 /* APSStriptBannerModule.swift in Sources */,
 				BF1C3A0F29E955A3008A1998 /* podTestProject.docc in Sources */,
+				BF1C3AB829E98CD4008A1998 /* APInterModule.swift in Sources */,
+				BF1C3AB929E98CD4008A1998 /* APRewardVideoModule.swift in Sources */,
+				BF1C3AC429E9932B008A1998 /* Reachability.swift in Sources */,
+				BF1C3AC329E9932B008A1998 /* APIConstants.swift in Sources */,
+				BF1C3AC529E9932B008A1998 /* AppSettingDataManager.swift in Sources */,
+				BF1C3AB429E98CD4008A1998 /* APBStriptBannerModule.swift in Sources */,
+				BF1C3AB529E98CD4008A1998 /* APModalBannerModule.swift in Sources */,
+				BF1C3AA729E98CD4008A1998 /* PangleAdapter.m in Sources */,
+				BF1C3AB629E98CD4008A1998 /* APInterVideoModule.swift in Sources */,
+				BF1C3AC929E99330008A1998 /* AppSettingModel.swift in Sources */,
+				BF1C3ABA29E98CD4008A1998 /* APSSPInit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +550,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -325,11 +608,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -339,6 +623,7 @@
 		};
 		BF1C3A1F29E955A3008A1998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EB92B6A263AD71845385C6 /* Pods-podTestProject.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -348,12 +633,28 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DatadogSDK/Datadog.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/OneKit-Pangle/OneKit_Pangle.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RARegisterKit-Pangle/RARegisterKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RangersAPM-Pangle/RangersAPM_Pangle.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BURelyFoundation_Global\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"$(SRCROOT)/podTestProject",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/podTestProject/Adapter/cauly/CaulyLib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avatye.sdk.podTestProject;
@@ -367,6 +668,7 @@
 		};
 		BF1C3A2029E955A3008A1998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC41EEF18B9C7372A451EBC /* Pods-podTestProject.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -376,12 +678,28 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DatadogSDK/Datadog.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/OneKit-Pangle/OneKit_Pangle.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RARegisterKit-Pangle/RARegisterKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RangersAPM-Pangle/RangersAPM_Pangle.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BURelyFoundation_Global\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"$(SRCROOT)/podTestProject",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/podTestProject/Adapter/cauly/CaulyLib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avatye.sdk.podTestProject;
@@ -396,6 +714,7 @@
 		BF1C3A2229E955A3008A1998 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TCPUT95JTM;
@@ -412,6 +731,7 @@
 		BF1C3A2329E955A3008A1998 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TCPUT95JTM;

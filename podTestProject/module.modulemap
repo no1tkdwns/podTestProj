@@ -1,0 +1,4 @@
+module MyFramework {
+    header "AdPopcornBirdge.h"
+    export *
+}
